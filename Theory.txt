@@ -1,0 +1,38 @@
+* SpringBoot: MVC => Django: MTV
+	M = Model
+	T = Template
+	V = View
+
+* Versions
+	Python version > 3.4
+	Django version in 2
+
+* Setup
+1. Download & Install Python
+2. Add Python and it's Scripts to Env Path
+	* C:\Users\Sooriyakumar\AppData\Local\Programs\Python\Python312\Scripts
+	* C:\Users\Sooriyakumar\AppData\Local\Programs\Python\Python312
+3. Pip install library to create new environment
+	* pip install virtualenvwrapper-win
+4. Create new environment
+	* mkvirtualenv pytest
+5. Pip install django in the new environment
+	* pip install django
+6. Check the versions
+	python --version
+	pip --version
+	django-admin --version
+7. Change directory
+	* cd C:\Users\Sooriyakumar\Desktop\Django Learning
+8. Create a django project
+	* django-admin startproject HelloWorld
+9. Change directory to Project Folder
+	* cd HelloWorld
+10. Run project in server
+	* python manage.py runserver
+11. Reactivate env
+	* workon pytest
+12. Create sub app
+	* python manage.py startapp calc
+
+
